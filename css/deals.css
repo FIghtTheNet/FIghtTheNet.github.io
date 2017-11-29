@@ -1,0 +1,153 @@
+.nav-wrapper{
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+
+.rowO{
+	column-count: 4;
+	padding-top: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+}
+
+.packageF{
+	border-radius: 2px;
+	border: 2px solid #333;
+	height: 530px;
+	color: #fff;
+}
+
+.Class p{
+	font-size: 20px;
+}
+
+.Class button{
+	background-color: #333;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border: none;
+	font-family: 'Lato';
+	border-radius: 3px;
+}
+
+.Class{
+	background-image: url(../Images/connect.jpg);
+	padding-left: 10px;
+
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.Class:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* Other */
+
+.Social ul{
+	font-size: 20px;
+}
+
+.Social button{
+	background-color: #333;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border: none;
+	font-family: 'Lato';
+	border-radius: 3px;
+}
+
+.Social{
+	background-image: url(../Images/cosmos.jpeg);
+	padding-left: 10px;
+	padding-right: 5px;
+
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.Social:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* Other */
+
+.Gaming ul{
+	font-size: 20px;
+}
+
+.Gaming button{
+	background-color: #333;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border: none;
+	font-family: 'Lato';
+	border-radius: 3px;
+}
+
+.Gaming{
+	background-image: url(../Images/game.jpeg);
+	padding-left: 10px;
+	padding-right: 5px;
+
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.Gaming:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* Other */
+
+.Movies ul{
+	font-size: 20px;
+}
+
+.Movies button{
+	background-color: #333;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border: none;
+	font-family: 'Lato';
+	border-radius: 3px;
+}
+
+.Movies{
+	background-image: url(../Images/mov.jpeg);
+	padding-left: 10px;
+	padding-right: 5px;
+
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.Movies:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.page-footer{
+	background-color: #333333 !important; 
+}

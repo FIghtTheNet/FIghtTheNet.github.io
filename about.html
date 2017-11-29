@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Save the Net</title>
+	<link rel="stylesheet" type="text/css" href="materialize/css/materialize.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+	<meta charset="UTF-8">
+</head>
+<body>
+	<nav class="nav-wrapper">
+		<a href="#" class="brand-logo left">#SaveTheNet</a>
+		<ul id="nav-mobile" class="right hide-on-med-down">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="deals.html">Deals</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+	</nav>
+
+	<div class="banner">
+		<center>
+			<h2>#FightThe<span class="bg">Net</span></h2>
+			<p>Liberty will always be important. Join the fight.</p>
+		</center>
+	</div>
+
+	<div class="quotes">
+		<center>
+			<p>"Please leave the Internet open to one and all without limitations. Let the little guys keep their voice."</p>
+			<p>— Concerned Internet Citizen, Boxford MA</p>			
+		</center>
+
+	</div>
+
+	<div class="information">
+		<h1>Your internet liberty is at risk</h1>
+		<p>Everytime you go online you are protected, no one should mess with what you see, you dont expect you internet provider to do such things. Thats because you are protected by Net Neutrality. Net Neutrality is the basic principle that prohibits internet service providers like AT&T, Comcast and Verizon from speeding up, slowing down or blocking any content, applications or websites you want to use. Net Neutrality is the way that the internet has always worked [<a href="https://www.savetheinternet.com/net-neutrality-what-you-need-know-now"> https://www.savetheinternet.com/net-neutrality-what-you-need-know-now</a>].</p>
+
+		<p>Activist pressured the Federal Communications Commision to Net Neutrality rules. Allowing you to share information with out any interferance.</p>
+	</div>
+
+	<div class="inf2">
+		<h3>What if we lose Net Neutrality?</h3>
+		<p>Net Neutrality = Free Speech</p>
+		<p>If we lose this battle, the internet will never be the internet again. The internet is a open place, imagine a world were cable companies could decide how much internet you get and what websites you visit. Liberty will be avolished.</p>
+	</div>
+
+	<div class="inf3">
+		<center>
+			<h1 id="how">Time left: </h1>
+			<h2 id="days"></h2>
+			<h4 id="exp"></h4>
+		</center>
+
+		<div class="colu">
+			<div class="colu2">
+				<p>The FCC will vote on Pai’s proposal on Dec. 14. Join the millions who have already spoken out against it. Help us fight, help us resist, the internet is made by everyone and for everyone. No one will play with it...</p>
+
+				<p>Please share this page with every person that uses the internet, its important to keep people informed about this desition...</p>
+
+				<h3>Links: </h3>
+
+				<a href="http://act.freepress.net/sign/internet_wake_up_destroy/?source=what">Freepress</a><br>
+				<a href="https://www.battleforthenet.com/">Battle For the Net</a>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+		var count_date = new Date("Dec 14, 2017").getTime();
+
+		var x = setInterval(function(){
+			var now = new Date().getTime();
+			var dis = count_date - now;
+
+			var days = Math.floor(dis / (1000 * 60 * 60 * 24));
+			document.getElementById("days").innerHTML = days + " days left";
+
+			if (dis <= 0){
+				clearInterval(x);
+				document.getElementById("exp").innerHTML = "Done"
+			}
+		});
+	</script>
+    <script src="https://widget.battleforthenet.com/widget.js" async></script>
+</body>
+</html>

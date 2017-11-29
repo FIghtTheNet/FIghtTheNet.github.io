@@ -1,0 +1,95 @@
+.nav-wrapper{
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+
+.Banner{
+	background-color: #333333;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+
+.Banner h4{
+	color: #fff;
+	font-family: 'Lato';
+}
+
+.phoneDeals{
+	padding-left: 180px;
+}
+
+.phones{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.phones img{
+	width: 300px;
+	height: 300px;
+}
+
+.iphone{
+	max-width: 100%;
+
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.iphone:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.pixel{
+	max-width: 100%;
+
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.pixel:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.samsung{
+	max-width: 100%;
+
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.samsung:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.internet{
+	padding-top: 30px;
+	background-color: #333333;
+	padding-bottom: 30px;
+}
+
+.internet h2{
+	color: #fff;
+	padding-left: 160px;
+}
+
+.internet p{
+	color: #fff;
+	padding-left: 160px;
+	font-size: 20px;
+	padding-right: 40px;
+}
+
+.page-footer{
+	background-color: #ffffff !important;
+	color: #000 !important; 
+}

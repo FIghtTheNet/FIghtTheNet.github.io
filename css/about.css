@@ -1,0 +1,118 @@
+body{
+	background-color: #4d4d4d;
+}
+
+.nav-wrapper{
+	background-color: #333;
+	position: fixed;
+}
+
+.bg{
+	background-color: #fff;
+}
+
+.banner{
+	background-image: url(../Images/nt.jpeg);
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+
+.banner p{
+	font-size: 20px;
+	color: #fff;
+}
+
+.banner h2{
+	font-family: 'Russo One';
+	color: #24478f;
+}
+
+.quotes{
+	padding-left: 250px;
+	padding-right: 300px;
+}
+
+.quotes h1{
+	color: #5c85d6;
+}
+
+.quotes p{
+	font-size: 20px; 
+	color: #fff;
+}
+
+.information{
+	padding-top: 30px;
+	color: #fff;
+	padding-left: 150px;
+	padding-right: 100px;
+	text-align: justify;
+	padding-bottom: 30px;
+}
+
+.information h1{
+	color: #5c85d6;
+}
+
+.information p{
+	font-size: 20px;
+}
+
+.inf2{
+	padding-top: 20px;
+	color: #fff;
+	padding-left: 150px;
+	padding-right: 100px;
+	padding-bottom: 30px;
+	text-align: justify;
+}
+
+.inf2 h3{
+	color: #5c85d6;
+}
+
+.inf2 p{
+	font-size: 20px;
+}
+
+.inf3{
+	padding-top: 30px;
+	background-image: url(../Images/col.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #fff;
+	padding-left: 30px;
+	padding-right: 50px;
+	text-align: justify;
+	padding-bottom: 50px;
+}
+
+.inf3 p{
+	font-size: 20px;
+}
+
+#days{
+	font-family: 'Russo One';
+	color: #fff;
+}
+
+#how{
+	font-family: 'Russo One';
+}
+
+a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.colu{
+	column-count: 2;
+	column-width: 500px;
+	column-gap: 90px;
+
+}
+
+.colu2{
+	height: 450px;
+}
